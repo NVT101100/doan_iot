@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "35243690439",
+    "project_id": "thuctaplan2",
+    "storage_bucket": "thuctaplan2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:35243690439:android:aeefed578752b1de9931e2",
+        "android_client_info": {
+          "package_name": "com.example.thuctaplan2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "35243690439-5e93c2t941p7gaqjd7aso30dfnrn5o50.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBK4FXafjenZJKpGcFMC1V0Jd8WrzlYhnE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "35243690439-5e93c2t941p7gaqjd7aso30dfnrn5o50.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

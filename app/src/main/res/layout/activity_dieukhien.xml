@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/logoso2"
+    android:layout_height="match_parent"
+    tools:context=".dieukhien">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <Switch
+                android:id="@+id/tuoinuoctang3"
+                android:layout_width="156dp"
+                android:layout_height="41dp"
+                android:layout_marginTop="40dp"
+                android:background="@color/teal_700"
+                android:minWidth="8mm"
+                android:text="Tưới nước tầng 3"
+                android:textColor="#0B0707"
+                tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+            <Switch
+                android:id="@+id/tuoinuoctang1"
+                android:layout_width="156dp"
+                android:layout_height="41dp"
+                android:layout_marginTop="40dp"
+                android:background="@color/teal_700"
+                android:minWidth="8mm"
+                android:text="Tưới nước tầng 1"
+                android:textColor="@color/black"
+                tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+            <Switch
+                android:id="@+id/tuoinuoccactang"
+                android:layout_width="156dp"
+                android:layout_height="41dp"
+                android:layout_marginTop="40dp"
+                android:background="@color/teal_700"
+                android:minWidth="8mm"
+                android:text="Tưới nước tất cả tầng "
+                android:textColor="@color/black" />
+
+            <Switch
+                android:id="@+id/tuoinuoctang2"
+                android:layout_width="156dp"
+                android:layout_height="41dp"
+                android:layout_marginTop="40dp"
+
+                android:background="@color/teal_700"
+                android:minWidth="8mm"
+                android:text="Tưới nước tầng 2"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/hengio"
+                android:layout_width="156dp"
+                android:layout_height="79dp"
+                android:layout_marginTop="84dp"
+
+                android:text="Hẹn giờ tưới" />
+
+            <TextView
+                android:id="@+id/voice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"/>
+
+            <ImageView
+                android:id="@+id/giongnoi"
+                android:layout_width="134dp"
+                android:layout_height="96dp"
+                app:srcCompat="@drawable/img_3"
+                android:layout_marginTop="20dp"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
